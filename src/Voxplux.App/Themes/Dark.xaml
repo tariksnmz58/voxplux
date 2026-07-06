@@ -1,0 +1,95 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    
+
+    
+    <Color x:Key="AppBackgroundColor">#FF0B0E14</Color>
+    <Color x:Key="PanelBackgroundColor">#CC151A25</Color>
+    <Color x:Key="CardBackgroundColor">#FF1C2233</Color>
+    <Color x:Key="CardHoverColor">#FF242D42</Color>
+    <Color x:Key="SurfaceColor">#FF162040</Color>
+
+    
+    <Color x:Key="AccentBlueColor">#FF3B82F6</Color>
+    <Color x:Key="AccentBlueLightColor">#FF60A5FA</Color>
+    <Color x:Key="AccentBlueDimColor">#FF2563EB</Color>
+    <Color x:Key="AccentCyanColor">#FF06B6D4</Color>
+    <Color x:Key="SuccessGreenColor">#FF10B981</Color>
+    <Color x:Key="ErrorRedColor">#FFEF4444</Color>
+    <Color x:Key="WarningYellowColor">#FFFBBF24</Color>
+
+    
+    <Color x:Key="TextPrimaryColor">#FFF1F5F9</Color>
+    <Color x:Key="TextSecondaryColor">#FF94A3B8</Color>
+    <Color x:Key="TextDimColor">#FF64748B</Color>
+
+    
+    <SolidColorBrush x:Key="AppBackgroundBrush" Color="{StaticResource AppBackgroundColor}" />
+    <SolidColorBrush x:Key="PanelBackgroundBrush" Color="{StaticResource PanelBackgroundColor}" />
+    <SolidColorBrush x:Key="CardBackgroundBrush" Color="{StaticResource CardBackgroundColor}" />
+    <SolidColorBrush x:Key="CardHoverBrush" Color="{StaticResource CardHoverColor}" />
+    <SolidColorBrush x:Key="SurfaceBrush" Color="{StaticResource SurfaceColor}" />
+    <SolidColorBrush x:Key="AccentBlueBrush" Color="{StaticResource AccentBlueColor}" />
+    <SolidColorBrush x:Key="AccentBlueLightBrush" Color="{StaticResource AccentBlueLightColor}" />
+    <SolidColorBrush x:Key="AccentBlueDimBrush" Color="{StaticResource AccentBlueDimColor}" />
+    <SolidColorBrush x:Key="AccentCyanBrush" Color="{StaticResource AccentCyanColor}" />
+    <SolidColorBrush x:Key="SuccessGreenBrush" Color="{StaticResource SuccessGreenColor}" />
+    <SolidColorBrush x:Key="ErrorRedBrush" Color="{StaticResource ErrorRedColor}" />
+    <SolidColorBrush x:Key="WarningYellowBrush" Color="{StaticResource WarningYellowColor}" />
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="{StaticResource TextPrimaryColor}" />
+    <SolidColorBrush x:Key="TextSecondaryBrush" Color="{StaticResource TextSecondaryColor}" />
+    <SolidColorBrush x:Key="TextDimBrush" Color="{StaticResource TextDimColor}" />
+
+    
+    <LinearGradientBrush x:Key="AccentGradientBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#FF3B82F6" Offset="0" />
+        <GradientStop Color="#FF06B6D4" Offset="1" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="CardGradientBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#FF1C2233" Offset="0" />
+        <GradientStop Color="#FF151A25" Offset="1" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="SidebarGradientBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#FF101420" Offset="0" />
+        <GradientStop Color="#FF0B0E14" Offset="1" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="StatusBarGradientBrush" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="#FF0F1420" Offset="0" />
+        <GradientStop Color="#FF151D30" Offset="1" />
+    </LinearGradientBrush>
+
+    
+    <SolidColorBrush x:Key="GlassBorderBrush" Color="#18FFFFFF" />
+    <SolidColorBrush x:Key="GlassBorderActiveBrush" Color="#30FFFFFF" />
+
+    
+    <CornerRadius x:Key="SmallRadius">6</CornerRadius>
+    <CornerRadius x:Key="MediumRadius">10</CornerRadius>
+    <CornerRadius x:Key="LargeRadius">16</CornerRadius>
+    <CornerRadius x:Key="RoundRadius">50</CornerRadius>
+
+    
+    <DropShadowEffect x:Key="CardShadow"
+                      Color="#000000"
+                      BlurRadius="24"
+                      ShadowDepth="2"
+                      Opacity="0.5"
+                      Direction="270" />
+
+    <DropShadowEffect x:Key="GlowEffect"
+                      Color="{StaticResource AccentBlueColor}"
+                      BlurRadius="20"
+                      ShadowDepth="0"
+                      Opacity="0.35" />
+
+    <DropShadowEffect x:Key="SubtleGlow"
+                      Color="{StaticResource AccentCyanColor}"
+                      BlurRadius="12"
+                      ShadowDepth="0"
+                      Opacity="0.2" />
+
+</ResourceDictionary>

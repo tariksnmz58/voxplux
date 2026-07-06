@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyTitle>Voxplux</AssemblyTitle>
+    <Description>Çoklu Ses Yönlendirme Sistemi</Description>
+    <Company>Tarık Sönmez</Company>
+    <Product>Voxplux</Product>
+    <Copyright>Copyright © 2026 Tarık Sönmez. Tüm hakları saklıdır.</Copyright>
+    <Authors>Tarık Sönmez</Authors>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+    <PackageReference Include="WPF-UI" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Voxplux.Core\Voxplux.Core.csproj" />
+  </ItemGroup>
+
+</Project>
